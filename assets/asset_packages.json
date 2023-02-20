@@ -1,0 +1,14 @@
+{
+    "assetPackages": [
+        [
+            "default",
+            "default",
+            "default asset package"
+        ],
+        [
+            "custom",
+            "custom",
+            "asset package"
+        ]
+    ]
+}
