@@ -11,3 +11,9 @@ A picture of the simulation and groundtruth were plugged in to a model using var
 | Inria (No Chicago)     | TBA     |
 | Inria (With Chicago Simulation)   | TBA        |
 | Inria (With Chicago Simulation and Real)   | TBA        |
+
+## Improvements to be made
+- Trees should not collide with buildings
+- Shadows can look more realistic
+- Building colors are too saturated with color
+- Geometry nodes is a possible avenue of procedurally generating areas
