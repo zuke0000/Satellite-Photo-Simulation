@@ -19,5 +19,5 @@ A picture of the simulation and groundtruth were plugged in to a model using var
 ## Improvements to be made
 - Trees should not collide with buildings
 - Shadows can look more realistic
-- Building colors are too saturated with color
+- Building colors are too saturated
 - Geometry nodes is a possible avenue of procedurally generating areas
