@@ -1,0 +1,73 @@
+Device being used: cuda:0
+Training decoder unet with encoder resnet18 from scratch ...
+Total params: 15.16M
+Use inria mean std stats: [[0.41776216 0.43993309 0.39138562]
+ [0.18476704 0.16793099 0.15915148]]
+Training model on the inria dataset
+[train] Epoch: 0/11 xent: 1.117 IoU: 0.533 
+Execution time: 539.2788327000017
+
+[valid] Epoch: 0/11 xent: 0.776 IoU: 0.627 
+Execution time: 77.51748249999946
+
+[train] Epoch: 1/11 xent: 0.891 IoU: 0.633 
+Execution time: 513.4822010000062
+
+[valid] Epoch: 1/11 xent: 0.705 IoU: 0.640 
+Execution time: 77.35108949999994
+
+[train] Epoch: 2/11 xent: 0.796 IoU: 0.670 
+Execution time: 514.1096380000017
+
+[valid] Epoch: 2/11 xent: 0.654 IoU: 0.686 
+Execution time: 77.49594499999512
+
+[train] Epoch: 3/11 xent: 0.746 IoU: 0.689 
+Execution time: 514.5315205000006
+
+[valid] Epoch: 3/11 xent: 0.691 IoU: 0.672 
+Execution time: 77.22884859999613
+
+[train] Epoch: 4/11 xent: 0.723 IoU: 0.699 
+Execution time: 514.5651756000007
+
+[valid] Epoch: 4/11 xent: 0.620 IoU: 0.696 
+Execution time: 77.21948139999586
+
+[train] Epoch: 5/11 xent: 0.694 IoU: 0.710 
+Execution time: 515.0633955000012
+
+[valid] Epoch: 5/11 xent: 0.606 IoU: 0.707 
+Execution time: 77.53700099999696
+
+[train] Epoch: 6/11 xent: 0.676 IoU: 0.717 
+Execution time: 517.9269793999993
+
+[valid] Epoch: 6/11 xent: 0.624 IoU: 0.690 
+Execution time: 77.52648930000578
+
+[train] Epoch: 7/11 xent: 0.659 IoU: 0.724 
+Execution time: 516.3142999000047
+
+[valid] Epoch: 7/11 xent: 0.609 IoU: 0.687 
+Execution time: 77.50260109999363
+
+[train] Epoch: 8/11 xent: 0.648 IoU: 0.728 
+Execution time: 516.8852281
+
+[valid] Epoch: 8/11 xent: 0.599 IoU: 0.724 
+Execution time: 77.40453640000487
+
+[train] Epoch: 9/11 xent: 0.639 IoU: 0.732 
+Execution time: 515.4697660999955
+
+[valid] Epoch: 9/11 xent: 0.571 IoU: 0.724 
+Execution time: 77.37905170000158
+
+[train] Epoch: 10/11 xent: 0.635 IoU: 0.734 
+Execution time: 521.7895113999984
+
+[valid] Epoch: 10/11 xent: 0.660 IoU: 0.679 
+Execution time: 77.19778960000258
+
+Saved model at E:\Research\Notebooks\model_save\train_6\ecresnet18_dcunet_dsinria_lre1e-03_lrd1e-02_ep11_bs5_ds50_dr0p1_crxent\epoch-11.pth.tar

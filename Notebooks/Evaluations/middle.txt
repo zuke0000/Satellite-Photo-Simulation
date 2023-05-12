@@ -1,0 +1,73 @@
+Device being used: cuda:0
+Training decoder unet with encoder resnet18 from scratch ...
+Total params: 15.16M
+Use inria mean std stats: [[0.41776216 0.43993309 0.39138562]
+ [0.18476704 0.16793099 0.15915148]]
+Training model on the inria dataset
+[train] Epoch: 0/11 xent: 0.968 IoU: 0.536 
+Execution time: 458.6479451999985
+
+[valid] Epoch: 0/11 xent: 0.787 IoU: 0.605 
+Execution time: 78.61232060000475
+
+[train] Epoch: 1/11 xent: 0.721 IoU: 0.654 
+Execution time: 428.2381588999997
+
+[valid] Epoch: 1/11 xent: 0.684 IoU: 0.654 
+Execution time: 78.81928580000385
+
+[train] Epoch: 2/11 xent: 0.685 IoU: 0.671 
+Execution time: 428.5329983999982
+
+[valid] Epoch: 2/11 xent: 0.679 IoU: 0.662 
+Execution time: 78.4264708999981
+
+[train] Epoch: 3/11 xent: 0.641 IoU: 0.691 
+Execution time: 427.8489589000019
+
+[valid] Epoch: 3/11 xent: 0.640 IoU: 0.694 
+Execution time: 78.91126839999924
+
+[train] Epoch: 4/11 xent: 0.615 IoU: 0.702 
+Execution time: 434.8951132000002
+
+[valid] Epoch: 4/11 xent: 0.639 IoU: 0.680 
+Execution time: 78.95299130000058
+
+[train] Epoch: 5/11 xent: 0.597 IoU: 0.710 
+Execution time: 429.8873383999962
+
+[valid] Epoch: 5/11 xent: 0.629 IoU: 0.681 
+Execution time: 78.48525200000586
+
+[train] Epoch: 6/11 xent: 0.578 IoU: 0.719 
+Execution time: 430.2309613000034
+
+[valid] Epoch: 6/11 xent: 0.619 IoU: 0.694 
+Execution time: 78.89145709999866
+
+[train] Epoch: 7/11 xent: 0.566 IoU: 0.724 
+Execution time: 439.14870630000223
+
+[valid] Epoch: 7/11 xent: 0.620 IoU: 0.683 
+Execution time: 78.34655020000355
+
+[train] Epoch: 8/11 xent: 0.552 IoU: 0.730 
+Execution time: 435.1095545999997
+
+[valid] Epoch: 8/11 xent: 0.645 IoU: 0.678 
+Execution time: 78.13838459999533
+
+[train] Epoch: 9/11 xent: 0.549 IoU: 0.732 
+Execution time: 428.8916418999943
+
+[valid] Epoch: 9/11 xent: 0.598 IoU: 0.705 
+Execution time: 78.98532410000189
+
+[train] Epoch: 10/11 xent: 0.539 IoU: 0.736 
+Execution time: 427.9022990000012
+
+[valid] Epoch: 10/11 xent: 0.595 IoU: 0.712 
+Execution time: 78.2788436999981
+
+Saved model at E:\Research\Notebooks\model_save\train_8\ecresnet18_dcunet_dsinria_lre1e-03_lrd1e-02_ep11_bs5_ds50_dr0p1_crxent\epoch-11.pth.tar
