@@ -1,0 +1,51 @@
+{
+    "config": "config.json",
+    "dataset": {
+        "batch_size": 5,
+        "class_num": 2,
+        "crop_size": "(512, 512)",
+        "data_dir": "E:\\Research\\Notebooks\\data\\inria\\inria_save\\ps512_pd0_ol0\\patches",
+        "ds_name": "inria",
+        "input_size": "(512, 512)",
+        "load_func": "default",
+        "mean": "(0.41776216, 0.43993309, 0.39138562)",
+        "num_workers": 8,
+        "std": "(0.18476704, 0.16793099, 0.15915148)",
+        "train_file": "E:\\Research\\Notebooks\\data\\inria\\list_train.txt",
+        "valid_file": "E:\\Research\\Notebooks\\data\\inria\\list_valid.txt"
+    },
+    "decoder_name": "unet",
+    "ds_cfgs": [
+        "dataset"
+    ],
+    "encoder_name": "resnet18",
+    "gpu": "0",
+    "imagenet": "True",
+    "optimizer": {
+        "aux_loss": 0,
+        "aux_loss_weight": 0.4,
+        "decay_rate": 0.1,
+        "decay_step": "[50]",
+        "learn_rate_decoder": 0.01,
+        "learn_rate_encoder": 0.001,
+        "name": "sgd"
+    },
+    "random_seed": 1,
+    "save_dir": "E:\\Research\\Notebooks\\model_save\\train_5\\ecresnet18_dcunet_dsinria_lre1e-03_lrd1e-02_ep6_bs5_ds50_dr0p1_crxent",
+    "trainer": {
+        "alpha": 0.25,
+        "bp_loss_idx": "(0,)",
+        "class_weight": "(1,1)",
+        "criterion_name": "xent,iou",
+        "epochs": 6,
+        "finetune_dir": "None",
+        "further_train": false,
+        "gamma": 2,
+        "loss_weights": "None",
+        "resume_epoch": 0,
+        "save_epoch": 6,
+        "save_root": "E:\\Research\\Notebooks\\model_save\\train_5"
+    },
+    "use_emau": false,
+    "use_ocr": false
+}
