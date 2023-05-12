@@ -13,7 +13,7 @@ A picture of the simulation and groundtruth were plugged in to a model using var
 | Inria (No Chicago)     | 0.686     |
 | Inria (With Chicago Simulation)   |     0.712    |
 | Inria (With Chicago Simulation and Real)   | 0.679  |
-- More results can be seen from the graphs seen in the [report]([url](https://docs.google.com/document/d/1F1ux6iJLPZb3-dmgNmj_rlfazX_pNTuOhnVxNCUzOFY/edit?usp=sharing)) and the [evaluation notebook](https://github.com/zuke0000/Satellite-Photo-Simulation/blob/cut_large_files/Notebooks/Evaluations/evaluate.ipynb). 
+- More results can be seen from the graphs seen in the [report]([url](https://docs.google.com/document/d/1F1ux6iJLPZb3-dmgNmj_rlfazX_pNTuOhnVxNCUzOFY/edit?usp=sharing)) and the [evaluation notebook](https://github.com/zuke0000/Satellite-Photo-Simulation/blob/Repo_with_Models/Notebooks/Evaluations/evaluate.ipynb). 
 - As mentioned in the report the results are not indicitive that the simulation actually improves the model due to the low epoch count.
 
 ## Improvements to be made
